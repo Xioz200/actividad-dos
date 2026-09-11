@@ -257,3 +257,37 @@ a {
     font-size: 10px;
     line-height: 1.5;
 }
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+.footer {
+    background-color: var(--blanco);
+    border-top: 1px solid var(--borde);
+}
+
+.footer__contenedor {
+    min-height: 40px;
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.footer__texto,
+.footer__enlace {
+    margin: 0;
+
+    color: var(--texto-footer);
+
+    font-size: 9px;
+}
+
+.footer__enlace:hover {
+    color: var(--verde);
+}
+
