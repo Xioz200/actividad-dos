@@ -9,3 +9,73 @@
     --texto-footer: #94a3b8;
     --borde: #e2e8f0;
 }
+
+/* =========================================
+   CONFIGURACIÓN GENERAL
+   ========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--fondo);
+    color: var(--texto);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+.header {
+    width: 100%;
+    background-color: var(--blanco);
+    border-bottom: 1px solid var(--borde);
+}
+
+.header__contenedor {
+    width: 90%;
+    max-width: 1100px;
+    min-height: 64px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+/* =========================================
+   LOGO
+   ========================================= */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo__icono {
+    width: 16px;
+    height: 16px;
+
+    background-color: var(--verde);
+
+    border-radius: 50%;
+}
+
+.logo__texto {
+    color: var(--oscuro);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
