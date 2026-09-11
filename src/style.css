@@ -77,5 +77,114 @@ a {
     font-size: 15px;
     font-weight: 700;
 }
+/* =========================================
+   NAVEGACIÓN
+   ========================================= */
+
+.navegacion {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.navegacion__enlace {
+    color: var(--texto);
+    font-size: 12px;
+}
+
+.navegacion__enlace:hover {
+    color: var(--verde);
+}
 
 
+/* =========================================
+   BOTONES
+   ========================================= */
+
+.boton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.boton--registro {
+    min-width: 76px;
+    min-height: 32px;
+
+    padding: 8px 14px;
+
+    color: var(--blanco);
+    background-color: var(--verde);
+}
+
+.boton--principal {
+    min-height: 40px;
+
+    padding: 0 18px;
+
+    color: var(--blanco);
+    background-color: var(--oscuro);
+}
+
+
+/* =========================================
+   HERO
+   ========================================= */
+
+.hero {
+    padding: 40px 0 20px;
+}
+
+.hero__contenedor {
+    width: 67%;
+    max-width: 700px;
+    min-height: 220px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.hero__contenido {
+    flex: 1;
+}
+
+.hero__titulo {
+    margin: 0 0 12px;
+
+    color: var(--titulo);
+
+    font-size: 29px;
+    line-height: 1.15;
+    font-weight: 800;
+}
+
+.hero__descripcion {
+    max-width: 360px;
+
+    margin: 0 0 18px;
+
+    color: var(--texto-secundario);
+
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.hero__imagen {
+    width: 220px;
+    height: 220px;
+
+    flex-shrink: 0;
+
+    background-image: url("/images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 7px;
+}
